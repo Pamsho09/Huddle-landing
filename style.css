@@ -31,9 +31,9 @@ header h1{
    
 display: flex;
 }
-.logo img{       width: 1.3em;
-    height: 0.9em;
-    margin: .3em;
+.logo img{       width: 8.3em;
+   
+    margin-left: 1em;
 
 }
 .try_free{
@@ -42,7 +42,7 @@ display: flex;
   
     text-align: -webkit-right;
 }
-.try{    font-family: 'Open Sans', sans-serif;
+.try{       margin-right: 1em; font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 0.68em;
     padding: .4em 1em;
