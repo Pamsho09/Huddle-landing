@@ -134,10 +134,10 @@ display: flex;
     font-weight:700;
     font-size: 1.5em;
 }
-.subFooter p{
+.subFooter > p{
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: .9em;
+    font-size: 1em;
     font-weight: 600;
     letter-spacing: normal
 }
@@ -163,7 +163,7 @@ body{
 border-radius: 8px;
     height: 2.7em;
 }
-.subFooter button{
+form p{
     font-family: 'Open Sans', sans-serif;
     font-size: .93em;
     font-weight: 700;
@@ -173,5 +173,22 @@ border-radius: 8px;
     border: 1px solid var(--Pink);
     color: white;
     background-color: var(--Pink);
+
+}.subFooter form{
+    text-align: -webkit-right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subFooter span img{
+    margin-right: 1em;
+    
+}
+.subFooter span{
+    margin: .5em 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: normal
 
 }
