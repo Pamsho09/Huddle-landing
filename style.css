@@ -53,7 +53,7 @@ display: flex;
     width: fit-content;
 }
 .subContiner{
-
+    margin-bottom: 5em;
     text-align: center;
 }
 .subContiner h1{
@@ -62,9 +62,16 @@ display: flex;
     font-weight:700;
     font-size: 1.5em;
 }
+.subContiner h2{
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size: 1.5em;
+}
 .subContiner p{font-family: 'Open Sans', sans-serif;
-    font-size: .89em;
+    font-size: .9em;
     font-weight: 400;
+    letter-spacing: normal
 }
 .continer{
     display: grid;
@@ -115,4 +122,56 @@ display: flex;
     align-items: center;
     display: grid;
     
+}
+.footer{
+ margin: auto;
+    background-color: var(--CyanD);
+}
+.subFooter h1{
+    color: white;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size: 1.5em;
+}
+.subFooter p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    font-weight: 600;
+    letter-spacing: normal
+}
+footer{
+    display: grid;
+}
+footer img{
+    margin-bottom: -1px;
+}
+body{
+     margin: 0;
+  padding: 0;
+}
+.subFooter{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin: 3em 2em;
+    text-align: left;
+}
+.subFooter input{
+    width: 100%;
+border-radius: 8px;
+    height: 2.7em;
+}
+.subFooter button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .93em;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: .8em 3em;
+    margin-top: 2em;
+    border: 1px solid var(--Pink);
+    color: white;
+    background-color: var(--Pink);
+
 }
